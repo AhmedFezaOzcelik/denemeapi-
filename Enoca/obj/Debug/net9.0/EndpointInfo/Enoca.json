@@ -1,0 +1,257 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "Enoca",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Pokemon": {
+      "get": {
+        "tags": [
+          "Pokemon"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Pokemon"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Pokemon"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Pokemon"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Category": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "pokemon_Categories": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Pokemon_Category"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Country": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "owners": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Owner"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Owner": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "firstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastName": {
+            "type": "string",
+            "nullable": true
+          },
+          "gym": {
+            "type": "string",
+            "nullable": true
+          },
+          "country": {
+            "$ref": "#/components/schemas/Country"
+          },
+          "pokemon_Owners": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Pokemon_Owner"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pokemon": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "birthdate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "reviews": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Review"
+            },
+            "nullable": true
+          },
+          "pokemon_Owners": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Pokemon_Owner"
+            },
+            "nullable": true
+          },
+          "pokemon_Categories": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Pokemon_Category"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pokemon_Category": {
+        "type": "object",
+        "properties": {
+          "pokemonId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "categoryId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pokemon": {
+            "$ref": "#/components/schemas/Pokemon"
+          },
+          "category": {
+            "$ref": "#/components/schemas/Category"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pokemon_Owner": {
+        "type": "object",
+        "properties": {
+          "pokemonId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ownerId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pokemon": {
+            "$ref": "#/components/schemas/Pokemon"
+          },
+          "owner": {
+            "$ref": "#/components/schemas/Owner"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Review": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "text": {
+            "type": "string",
+            "nullable": true
+          },
+          "reviewer": {
+            "$ref": "#/components/schemas/Reviewer"
+          },
+          "pokemon": {
+            "$ref": "#/components/schemas/Pokemon"
+          },
+          "rating": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Reviewer": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "firstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastName": {
+            "type": "string",
+            "nullable": true
+          },
+          "reviews": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Review"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

@@ -1,19 +1,203 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Feza\\Documents\\MyProjects\\Enoca\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Feza\\Documents\\MyProjects\\Enoca - Kopya\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4CBEA8C5-E68F-4FB3-A053-5B853FDCE023}|Enoca\\Enoca.csproj|c:\\users\\feza\\documents\\myprojects\\enoca - kopya\\enoca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CBEA8C5-E68F-4FB3-A053-5B853FDCE023}|Enoca\\Enoca.csproj|solutionrelative:enoca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CBEA8C5-E68F-4FB3-A053-5B853FDCE023}|Enoca\\Enoca.csproj|c:\\users\\feza\\documents\\myprojects\\enoca - kopya\\enoca\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4CBEA8C5-E68F-4FB3-A053-5B853FDCE023}|Enoca\\Enoca.csproj|solutionrelative:enoca\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CBEA8C5-E68F-4FB3-A053-5B853FDCE023}|Enoca\\Enoca.csproj|c:\\users\\feza\\documents\\myprojects\\enoca - kopya\\enoca\\repository\\pokemonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CBEA8C5-E68F-4FB3-A053-5B853FDCE023}|Enoca\\Enoca.csproj|solutionrelative:enoca\\repository\\pokemonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CBEA8C5-E68F-4FB3-A053-5B853FDCE023}|Enoca\\Enoca.csproj|c:\\users\\feza\\documents\\myprojects\\enoca - kopya\\enoca\\controllers\\pokemoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CBEA8C5-E68F-4FB3-A053-5B853FDCE023}|Enoca\\Enoca.csproj|solutionrelative:enoca\\controllers\\pokemoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CBEA8C5-E68F-4FB3-A053-5B853FDCE023}|Enoca\\Enoca.csproj|c:\\users\\feza\\documents\\myprojects\\enoca - kopya\\enoca\\interfaces\\ipokemonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CBEA8C5-E68F-4FB3-A053-5B853FDCE023}|Enoca\\Enoca.csproj|solutionrelative:enoca\\interfaces\\ipokemonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CBEA8C5-E68F-4FB3-A053-5B853FDCE023}|Enoca\\Enoca.csproj|c:\\users\\feza\\documents\\myprojects\\enoca - kopya\\enoca\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CBEA8C5-E68F-4FB3-A053-5B853FDCE023}|Enoca\\Enoca.csproj|solutionrelative:enoca\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CBEA8C5-E68F-4FB3-A053-5B853FDCE023}|Enoca\\Enoca.csproj|c:\\users\\feza\\documents\\myprojects\\enoca - kopya\\enoca\\seed1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CBEA8C5-E68F-4FB3-A053-5B853FDCE023}|Enoca\\Enoca.csproj|solutionrelative:enoca\\seed1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CBEA8C5-E68F-4FB3-A053-5B853FDCE023}|Enoca\\Enoca.csproj|c:\\users\\feza\\documents\\myprojects\\enoca - kopya\\enoca\\models\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CBEA8C5-E68F-4FB3-A053-5B853FDCE023}|Enoca\\Enoca.csproj|solutionrelative:enoca\\models\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CBEA8C5-E68F-4FB3-A053-5B853FDCE023}|Enoca\\Enoca.csproj|c:\\users\\feza\\documents\\myprojects\\enoca - kopya\\enoca\\models\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CBEA8C5-E68F-4FB3-A053-5B853FDCE023}|Enoca\\Enoca.csproj|solutionrelative:enoca\\models\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CBEA8C5-E68F-4FB3-A053-5B853FDCE023}|Enoca\\Enoca.csproj|c:\\users\\feza\\documents\\myprojects\\enoca - kopya\\enoca\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CBEA8C5-E68F-4FB3-A053-5B853FDCE023}|Enoca\\Enoca.csproj|solutionrelative:enoca\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "DockedHeight": 339,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PokemonController.cs",
+              "DocumentMoniker": "C:\\Users\\Feza\\Documents\\MyProjects\\Enoca - Kopya\\Enoca\\Controllers\\PokemonController.cs",
+              "RelativeDocumentMoniker": "Enoca\\Controllers\\PokemonController.cs",
+              "ToolTip": "C:\\Users\\Feza\\Documents\\MyProjects\\Enoca - Kopya\\Enoca\\Controllers\\PokemonController.cs",
+              "RelativeToolTip": "Enoca\\Controllers\\PokemonController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwBoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T11:35:12.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PokemonRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Feza\\Documents\\MyProjects\\Enoca - Kopya\\Enoca\\Repository\\PokemonRepository.cs",
+              "RelativeDocumentMoniker": "Enoca\\Repository\\PokemonRepository.cs",
+              "ToolTip": "C:\\Users\\Feza\\Documents\\MyProjects\\Enoca - Kopya\\Enoca\\Repository\\PokemonRepository.cs",
+              "RelativeToolTip": "Enoca\\Repository\\PokemonRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T11:24:36.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IPokemonRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Feza\\Documents\\MyProjects\\Enoca - Kopya\\Enoca\\Interfaces\\IPokemonRepository.cs",
+              "RelativeDocumentMoniker": "Enoca\\Interfaces\\IPokemonRepository.cs",
+              "ToolTip": "C:\\Users\\Feza\\Documents\\MyProjects\\Enoca - Kopya\\Enoca\\Interfaces\\IPokemonRepository.cs",
+              "RelativeToolTip": "Enoca\\Interfaces\\IPokemonRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T11:21:28.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Feza\\Documents\\MyProjects\\Enoca - Kopya\\Enoca\\appsettings.json",
+              "RelativeDocumentMoniker": "Enoca\\appsettings.json",
+              "ToolTip": "C:\\Users\\Feza\\Documents\\MyProjects\\Enoca - Kopya\\Enoca\\appsettings.json",
+              "RelativeToolTip": "Enoca\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-10T08:48:09.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\Feza\\Documents\\MyProjects\\Enoca - Kopya\\Enoca\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "Enoca\\Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\Feza\\Documents\\MyProjects\\Enoca - Kopya\\Enoca\\Data\\DataContext.cs",
+              "RelativeToolTip": "Enoca\\Data\\DataContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T07:51:41.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Seed1.cs",
+              "DocumentMoniker": "C:\\Users\\Feza\\Documents\\MyProjects\\Enoca - Kopya\\Enoca\\Seed1.cs",
+              "RelativeDocumentMoniker": "Enoca\\Seed1.cs",
+              "ToolTip": "C:\\Users\\Feza\\Documents\\MyProjects\\Enoca - Kopya\\Enoca\\Seed1.cs",
+              "RelativeToolTip": "Enoca\\Seed1.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAYwAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T07:17:13.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Feza\\Documents\\MyProjects\\Enoca - Kopya\\Enoca\\Program.cs",
+              "RelativeDocumentMoniker": "Enoca\\Program.cs",
+              "ToolTip": "C:\\Users\\Feza\\Documents\\MyProjects\\Enoca - Kopya\\Enoca\\Program.cs",
+              "RelativeToolTip": "Enoca\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T08:23:46.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\Feza\\Documents\\MyProjects\\Enoca - Kopya\\Enoca\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "Enoca\\Models\\Review.cs",
+              "ToolTip": "C:\\Users\\Feza\\Documents\\MyProjects\\Enoca - Kopya\\Enoca\\Models\\Review.cs",
+              "RelativeToolTip": "Enoca\\Models\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T06:50:10.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Pokemon.cs",
+              "DocumentMoniker": "C:\\Users\\Feza\\Documents\\MyProjects\\Enoca - Kopya\\Enoca\\Models\\Pokemon.cs",
+              "RelativeDocumentMoniker": "Enoca\\Models\\Pokemon.cs",
+              "ToolTip": "C:\\Users\\Feza\\Documents\\MyProjects\\Enoca - Kopya\\Enoca\\Models\\Pokemon.cs",
+              "RelativeToolTip": "Enoca\\Models\\Pokemon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T12:34:07.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Owner.cs",
+              "DocumentMoniker": "C:\\Users\\Feza\\Documents\\MyProjects\\Enoca - Kopya\\Enoca\\Models\\Owner.cs",
+              "RelativeDocumentMoniker": "Enoca\\Models\\Owner.cs",
+              "ToolTip": "C:\\Users\\Feza\\Documents\\MyProjects\\Enoca - Kopya\\Enoca\\Models\\Owner.cs",
+              "RelativeToolTip": "Enoca\\Models\\Owner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T12:24:07.859Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 33,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
